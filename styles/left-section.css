@@ -1,0 +1,220 @@
+.left-tool-bar {
+  position: fixed;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  left: 330px;
+  top: 0;
+  bottom: 0;
+  background-color: white;
+  width: 260px;
+  font-family: Arial;
+}
+
+.tool-bar {
+  margin-top: 10px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.twitter-logo {
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+.twitter-logo-picture {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.twitter-logo-picture:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.tool-bar-home,
+.tool-bar-explore,
+.tool-bar-notifications,
+.tool-bar-messages,
+.tool-bar-lists,
+.tool-bar-bookmarks,
+.tool-bar-communities,
+.tool-bar-verified,
+.tool-bar-profile,
+.tool-bar-more {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+.tool-bar-home {
+  width: 110px;
+}
+
+.tool-bar-explore {
+  width: 140px;
+}
+
+.tool-bar-notifications {
+  width: 170px;
+}
+
+.tool-bar-messages {
+  width: 150px;
+}
+
+.tool-bar-lists {
+  width: 105px;
+}
+
+.tool-bar-bookmarks {
+  width: 160px;
+}
+
+.tool-bar-communities {
+  width: 175px;
+}
+
+.tool-bar-verified {
+  width: 130px;
+}
+
+.tool-bar-profile {
+  width: 130px;
+}
+
+.tool-bar-more {
+  width: 120px;
+  margin-bottom: 25px;
+}
+
+.tool-bar-home-picture,
+.tool-bar-explore-picture,
+.tool-bar-notifications-picture,
+.tool-bar-messages-picture,
+.tool-bar-lists-picture,
+.tool-bar-bookmarks-picture,
+.tool-bar-communities-picture,
+.tool-bar-verified-picture,
+.tool-bar-profile-picture,
+.tool-bar-more-picture {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.tool-bar-home-text {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.tool-bar-explore-text,
+.tool-bar-notifications-text,
+.tool-bar-messages-text,
+.tool-bar-lists-text,
+.tool-bar-bookmarks-text,
+.tool-bar-communities-text,
+.tool-bar-verified-text,
+.tool-bar-profile-text,
+.tool-bar-more-text {
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.tool-bar-home:hover,
+.tool-bar-explore:hover,
+.tool-bar-notifications:hover,
+.tool-bar-messages:hover,
+.tool-bar-lists:hover,
+.tool-bar-bookmarks:hover,
+.tool-bar-communities:hover,
+.tool-bar-verified:hover,
+.tool-bar-profile:hover,
+.tool-bar-more:hover {
+  background-color: rgb(224, 224, 224);
+}
+
+.tool-bar-more:active {
+  background-color: rgb(189, 189, 189);
+}
+
+.tool-bar-post {
+  display: flex;
+  justify-content: start;
+}
+
+.tool-bar-post-button {
+  background-color: rgb(29, 155, 240);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  width:240px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 40px;
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.tool-bar-post-button:hover {
+  background-color: rgb(22, 120, 185);
+}
+
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 8px;
+  border-radius: 50px;
+  width: 240px;
+  transition: 0.2s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.user-profile-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-left: 4px;
+}
+
+.user-profile-name {
+  margin-right: 75px;
+}
+
+.user-profile-main-name {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.user-profile-second-name {
+  color: grey;
+}
+
+.user-profile-more {
+  width: 15px;
+  height: 15px;
+}
+
+.user-profile:hover {
+  background-color: rgb(224, 224, 224);;
+}
+
+.user-profile:active {
+  background-color: rgb(189, 189, 189);
+}
